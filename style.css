@@ -1,0 +1,23 @@
+* {background-color: rgb(213, 238, 248); color: black;  }
+.blue{color: blue; text-align: center;}
+
+h1::first-letter{color: black; font-size: larger;}
+h3.blue{color: blue;}
+
+* {text-align: justify;}
+p.black{ color: black; width: 1500px;}
+p.solo::first-line{color: red;}
+a.azul{color: blue;}
+a.pagina:hover{ background-color: yellow; color: red; }
+
+[title] {color: blue;}
+[target] {color: blue; background-color: white;}
+a.visited:visited{color: white; background-color: blue;}
+
+
+h5{counter-reset: cuenta-ciclos;}
+p.ciclos::before {content: counter(cuenta-ciclos) "."; counter-increment: cuenta-ciclos;color: black;}
+
+img.derecha {float: right; margin-right: 200px; width:450px; height:400px}
+
+p.little{ font-size: x-small;}
